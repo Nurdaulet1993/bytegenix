@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { OurTeamModule } from "./our-team/our-team.module";
+import { ReasonsModule } from "./reasons/reasons.module";
 
 import { AppComponent } from './app.component';
 
@@ -10,7 +11,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    OurTeamModule
+    OurTeamModule,
+    ReasonsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
