@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { OurTeamModule } from "./our-team/our-team.module";
 import { ReasonsModule } from "./reasons/reasons.module";
 import { OurServicesModule } from "./our-services/our-services.module";
+import { HeroModule } from "./hero/hero.module";
 
 import { AppComponent } from './app.component';
 
@@ -14,7 +15,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
     OurTeamModule,
     ReasonsModule,
-    OurServicesModule
+    OurServicesModule,
+    HeroModule
   ],
   providers: [],
   bootstrap: [AppComponent]
