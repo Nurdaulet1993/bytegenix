@@ -1,5 +1,27 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+// Theme colors
 $primary: #066ac9;
+
+// Card
 $card-border-color: #EFF2F7;
+$card-spacer-y:                     1rem;
+$card-spacer-x:                     1.25rem;
+$card-border-radius:                $border-radius-lg;
+$card-border-width:                 0;
+$card-title-color:                  $headings-color;
+$card-border-color:                 var(--#{$prefix}border-color);
+$card-inner-border-radius:          subtract($card-border-radius, $card-border-width);
+$card-cap-bg:                       var(--#{$prefix}white);
+$card-cap-padding-y:                $card-spacer-y;
+$card-img-overlay-padding:          1.25rem;
+$card-group-margin:                 $grid-gutter-width * .5;
+
+// Navs
+$navbar-light-hover-color: $primary;
+$navbar-light-active-color: $primary;
+$navbar-padding-y: 15px;
+$nav-link-font-size: 18px;
 
 @import "bootstrap";
 @import "bootstrap-icons";

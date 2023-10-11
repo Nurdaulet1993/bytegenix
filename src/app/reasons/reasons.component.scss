@@ -12,3 +12,12 @@
   border-radius: 50%;
   color: var(--bs-white);
 }
+
+.card {
+  transition: all 300ms ease-in;
+
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 40px rgba(29, 58, 83, .15);
+  }
+}

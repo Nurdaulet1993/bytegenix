@@ -4,8 +4,10 @@ import { OurTeamModule } from "./our-team/our-team.module";
 import { ReasonsModule } from "./reasons/reasons.module";
 import { OurServicesModule } from "./our-services/our-services.module";
 import { HeroModule } from "./hero/hero.module";
+import { HeaderModule } from "./header/header.module";
 
 import { AppComponent } from './app.component';
+import { FooterModule } from "./footer/footer.module";
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { AppComponent } from './app.component';
     OurTeamModule,
     ReasonsModule,
     OurServicesModule,
-    HeroModule
+    HeroModule,
+    HeaderModule,
+    FooterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
